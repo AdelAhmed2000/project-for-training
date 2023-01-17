@@ -1,0 +1,475 @@
+/* Global  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+body {
+  font-family: "Alegreya";
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  font-family: system-ui;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+/* Global  */
+
+/* Start NavBar  */
+.header {
+  height: 900px;
+  background-image: url(img/heroImg.jpg);
+  background-position: 32% 22%;
+  background-size: cover;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  margin: 20px;
+}
+.header .logo img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.header .nav {
+  display: flex;
+}
+.header .nav li {
+  padding: 12px;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.header .nav li a:hover {
+  color: brown;
+  transition: 0.8s;
+}
+.header .nav li a {
+  color: white;
+  font-size: 20px;
+}
+/* End NavBar  */
+/* Start Hero Img  */
+.heroImg {
+  margin: 60px auto;
+  width: 50%;
+  text-align: center;
+}
+.heroImg .text h1 {
+  font-size: 76px;
+  margin: 0 0 15px;
+  font-weight: 400;
+  color: #fff;
+}
+.heroImg .text h3 {
+  color: #ffffffdb;
+  font-family: cursive;
+  font-size: 28px;
+  font-weight: 400;
+}
+.heroImg .text .ptn {
+  margin: 30px 5px;
+  padding: 18px 16px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.505);
+  font-weight: 600;
+  font-size: 17px;
+  font-family: system-ui;
+}
+.heroImg .text .ptn:hover {
+  transition: 0.8s;
+  opacity: 0.8;
+}
+.heroImg .text .ptn2 {
+  background-color: #c1ab84;
+}
+/* End Hero Img  */
+/* Start sc chef */
+/* .parChef {
+}
+.parChef .container {
+} */
+.parChef .chaildChef {
+  margin-top: 80px;
+}
+.parChef .chaildChef .box {
+  width: 50%;
+  display: inline-block;
+}
+.parChef .chaildChef .box img {
+  width: 80%;
+}
+.parChef .chaildChef .text {
+  float: right;
+  width: 45%;
+}
+.parChef .chaildChef .text h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #1d1c1ceb;
+  margin-bottom: 20px;
+}
+.parChef .chaildChef .text h3 {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #e5ba73;
+}
+.parChef .chaildChef .text p {
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.7;
+  color: #777;
+  margin-bottom: 45px;
+}
+.parChef .chaildChef .text ul {
+  padding-left: 30px;
+}
+.parChef .chaildChef .text li {
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.7;
+  color: #777;
+  margin: 35px 0;
+}
+/* End sc chef */
+/* Start sc LikeUs */
+.parlike .chaildlike {
+  margin-top: 80px;
+}
+.parlike .chaildlike .box {
+  width: 50%;
+  display: inline-block;
+  margin-left: 66px;
+}
+.parlike .chaildlike .box img {
+  width: 100%;
+}
+.parlike .chaildlike .text {
+  float: left;
+  width: 45%;
+}
+.parlike .chaildlike .text h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #1d1c1ceb;
+  margin-bottom: 20px;
+}
+.parlike .chaildlike .text h3 {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #e5ba73;
+}
+.parlike .chaildlike .text p {
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.7;
+  color: #777;
+  margin-bottom: 45px;
+}
+.parlike .chaildlike .text ul {
+  padding-left: 30px;
+}
+.parlike .chaildlike .text li {
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.7;
+  color: #777;
+  margin: 35px 0;
+}
+/* End sc LikeUs */
+/* Start sc Table */
+.secImg {
+  height: 600px;
+  background-image: url(img/table.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 30% 50%;
+  margin: 85px 0;
+}
+/* End sc Table */
+/* Start ourFlag */
+.ourFlag {
+  text-align: center;
+}
+.ourFlag .chaild .info h1 {
+  font-size: 45px;
+  font-family: sans-serif;
+  color: #1d1c1ceb;
+  margin-bottom: 30px;
+}
+.ourFlag .chaild .info h2 {
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #e5ba73;
+}
+.ourFlag .chaild .pox {
+  width: 33%;
+  float: left;
+}
+.ourFlag .chaild .pox img {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.ourFlag .chaild .pox h1 {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: #1d1c1ceb;
+  margin-bottom: 15px;
+}
+.ourFlag .chaild .pox p {
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.7;
+  color: #777;
+  width: 85%;
+  margin: 15px auto;
+}
+.ourFlag .ptn {
+  font-size: 15px;
+  padding: 13px 18px;
+  background-color: #a07256e3;
+  display: inline-block;
+  margin-top: 40px;
+  color: aliceblue;
+  font-family: system-ui;
+  border-radius: 6px;
+}
+/* End ourFlag */
+/* Start Map */
+.parMap {
+  margin-top: 85px;
+}
+.parMap .info {
+  float: left;
+  width: 50%;
+}
+.parMap .info h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+  color: #1d1c1ceb;
+  margin-bottom: 15px;
+}
+.parMap .info p,
+li {
+  font-size: 17px;
+  font-family: system-ui;
+  line-height: 1.7;
+  color: #777;
+  width: 85%;
+  margin: 15px 0;
+}
+.map iframe {
+  margin: 0 33px;
+}
+/* End Map */
+/* Start Footer */
+footer {
+  width: 100%;
+  background-color: #403c38;
+  margin-top: 90px;
+  height: 450px;
+}
+footer .chaild {
+  margin: 90px;
+}
+footer .chaild .pox {
+  width: 25%;
+  float: left;
+}
+footer .chaild .pox h1 {
+  color: #fff;
+  font-size: 20px;
+  margin: 40px 0;
+}
+footer .chaild .pox p {
+  color: #ddd;
+  padding-right: 143px;
+  font-size: 19px;
+  line-height: 2;
+  margin-bottom: 35px;
+}
+footer .chaild .pox ul li {
+  color: #ddd;
+  border-bottom: 1px solid #777;
+  margin-top: 23px;
+  font-weight: 700;
+}
+.end-footer {
+  background-image: url(img/logo2.png);
+  background-repeat: no-repeat;
+  height: 210px;
+  background-color: #2b2926f2;
+  background-position: center;
+}
+/* End Footer */
+/* Start About */
+.aboutSec {
+  background-image: url(img/heroImg.jpg);
+  background-size: cover; 
+  background-position: 0 100%;
+  height: 300px;
+}
+.aboutSec .info {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+.aboutSec .info h1 {
+  font-size: 60px;
+  margin-bottom: 13px;
+}
+.aboutSec .info p {
+  font-weight: 500;
+  color: #ddd;
+}
+/* End About */
+/* Start info sec About */
+.infoAbout .child {
+  margin-top: 45px;
+}
+.infoAbout .child .content {
+  width: 45%;
+  float: left;
+}
+.infoAbout .content .Our h1 {
+  font-size: 27px;
+  color: #1d1c1ceb;
+  margin-bottom: 15px;
+}
+.infoAbout .content .pox {
+  width: 45%;
+  float: left;
+  margin: 15px 12px;
+}
+.infoAbout .content .pox h1 {
+  font-size: 24px;
+  color: #1d1c1ceb;
+  margin-bottom: 15px;
+}
+.infoAbout .content p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.infoAbout .child .imges img {
+  width: 50%;
+  margin-left: 65px;
+}
+/* End info sec About */
+/* Start Meet */
+.meat {
+  background-color: #f8f8f8;
+  margin: 90px 0;
+}
+.meat .parent {
+  padding: 150px 0;
+}
+.parent .iamges img {
+  width: 45%;
+}
+.parent .pox2 {
+  width: 45%;
+  float: right;
+}
+.parent .pox2 ul li {
+  font-size: 19px;
+  padding-bottom: 50px;
+}
+.parent .pox2 ul li img {
+  width: 30px;
+}
+/* End Meet */
+/* Start Secret */
+.ourSecrets {
+}
+.ourSecrets .parent {
+  margin: 0 95px;
+}
+.ourSecrets .parent .center {
+  text-align: center;
+}
+.ourSecrets .parent .center h1 {
+  font-size: 32px;
+  color: #1d1c1ceb;
+  margin-bottom: 15px;
+}
+.ourSecrets p {
+  color: #777;
+}
+.ourSecrets .parent .pox {
+  width: 33%;
+  float: left;
+  margin-top: 50px;
+}
+.ourSecrets .parent .pox h1 {
+  margin-bottom: 50px;
+  font-size: 23px;
+  color: #1d1c1ceb;
+}
+.ourSecrets .parent .pox p {
+  width: 68%;
+  font-size: 17px;
+  line-height: 1.7;
+}
+/* End Secret */
+/* Start Feeling */
+.feeling {
+  background-image: url(img/heroImg.jpg);
+  background-attachment: fixed;
+  height: 490px;
+  margin-top: 95px;
+}
+.feeling .info {
+  text-align: center;
+  padding-top: 220px;
+  color: #fff;
+}
+.feeling .info h1 {
+  margin-bottom: 50px;
+}
+.feeling .info p {
+  font-size: 20px;
+}
+.feeling .info a {
+  padding: 15px 25px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.505);
+  font-weight: 600;
+  font-size: 17px;
+  font-family: system-ui;
+  margin-top: 50px;
+}
+/* End Feeling */
